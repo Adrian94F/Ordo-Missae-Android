@@ -2,17 +2,12 @@
     <string name="app_name">Ordo Missae</string>
     <string name="nav_header_title">Ordo Missae</string>
     <string name="nav_header_subtitle">Obrzędy stałe Mszy Świętej</string>
-    <string name="action_settings">Ustawienia</string>
-    <string name="tableOfContents">Spis treści</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_desc">Navigation header</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_toc">Spis treści</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_about">O aplikacji</string>
 </resources>
