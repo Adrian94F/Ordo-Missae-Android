@@ -3,16 +3,33 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:paddingHorizontal="10dp"
+    android:paddingTop="10dp">
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:text="Tytuł..."
-        android:textColor="@color/colorTitle"
-        android:textStyle="bold" />
+        android:layout_below="@+id/nigrics"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/latin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Lingua latina..."
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:id="@+id/polish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Język polski...\nwielolinijkowy..."
+            android:textColor="@color/colorText" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/rubrics"
@@ -21,7 +38,8 @@
         android:layout_below="@+id/title"
         android:layout_marginTop="5dp"
         android:text="Rubryki..."
-        android:textColor="@color/colorRubrics" />
+        android:textColor="@color/colorRubrics"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/nigrics"
@@ -32,29 +50,14 @@
         android:text="Nigryki..."
         android:textColor="@color/colorNigrics" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="5dp"
-        android:layout_below="@+id/nigrics" >
-
-        <TextView
-            android:id="@+id/latin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lingua latina..."
-            android:layout_weight="0.5"
-            android:textColor="@color/colorText" />
-
-        <TextView
-            android:id="@+id/polish"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Język polski...\nwielolinijkowy..."
-            android:layout_weight="0.5"
-            android:textColor="@color/colorText" />
-
-    </LinearLayout>
+        android:layout_alignParentTop="true"
+        android:text="Tytuł..."
+        android:textColor="@color/colorTitle"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

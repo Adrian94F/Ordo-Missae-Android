@@ -32,9 +32,22 @@ public class TextRow {
         polish = p;
     }
 
+    TextRow(String t, int lvl, String r, String n, String l, String p) {
+        title = t;
+        titleLevel = lvl;
+        rubrics = r;
+        nigrics = n;
+        latin = l;
+        polish = p;
+    }
+
     String getTitle() {
-        String spaces = new String(new char[titleLevel]).replace('\0', ' ');
-        return spaces + title;
+        if (title.length() > 0) {
+            String spaces = new String(new char[2*titleLevel]).replace('\0', ' ');
+            return spaces + title;
+        }
+        return "";
+
     }
 
     String getRubrics() {
@@ -49,7 +62,11 @@ public class TextRow {
         return latin;
     }
 
-    String getRPolish() {
+    String getPolish() {
         return polish;
+    }
+
+    int getTitleLevel() {
+        return titleLevel;
     }
 }

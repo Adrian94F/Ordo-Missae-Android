@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class CustomAdapter extends ArrayAdapter<TextRow> /*implements View.OnClickListener*/ {
+public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnClickListener*/ {
 
     private ArrayList<TextRow> dataSet;
     Context mContext;
@@ -25,7 +25,7 @@ public class CustomAdapter extends ArrayAdapter<TextRow> /*implements View.OnCli
         TextView txtPolish;
     }
 
-    public CustomAdapter(ArrayList<TextRow> data, Context context) {
+    public TextRowAdapter(ArrayList<TextRow> data, Context context) {
         super(context, R.layout.row_item, data);
         this.dataSet = data;
         this.mContext=context;
@@ -83,40 +83,41 @@ public class CustomAdapter extends ArrayAdapter<TextRow> /*implements View.OnCli
         lastPosition = position;
 
         String title = textRow.getTitle();
-        if (title.length() > 0)
+        if (title.length() > 0) {
             viewHolder.txtTitle.setText(title);
-        else
-            viewHolder.txtTitle.setHeight(0);
+            viewHolder.txtTitle.setTextSize(22 - 2 * textRow.getTitleLevel());
+        }
+        else {
+            viewHolder.txtTitle.setVisibility(View.GONE);
+        }
 
-        /*String rubrics = textRow.getRubrics();
-        if (rubrics.length() > 0)
+        String rubrics = textRow.getRubrics();
+        if (rubrics.length() > 0) {
             viewHolder.txtRubrics.setText(rubrics);
-        else
-            viewHolder.txtRubrics.setHeight(0);
+        }
+        else {
+            viewHolder.txtRubrics.setVisibility(View.GONE);
+        }
 
-        /*String nigrics = textRow.getNigrics();
-        if (nigrics.length() > 0)
+        String nigrics = textRow.getNigrics();
+        if (nigrics.length() > 0) {
             viewHolder.txtNigrics.setText(nigrics);
-        else
-            viewHolder.txtNigrics.setHeight(0);
+        }
+        else {
+            viewHolder.txtNigrics.setVisibility(View.GONE);
+        }
 
-        /*String latin = textRow.getLatin();
-        if (latin.length() > 0)
+        String latin = textRow.getLatin();
+        String polish = textRow.getPolish();
+        if (latin.length() > 0 || polish.length() > 0) {
             viewHolder.txtLatin.setText(latin);
-        else
-            viewHolder.txtLatin.setHeight(0);
-
-        String polish = textRow.getRPolish();
-        if (polish.length() > 0)
             viewHolder.txtPolish.setText(polish);
-        else
-            viewHolder.txtPolish.setHeight(0);*/
+        }
+        else {
+            viewHolder.txtLatin.setVisibility(View.GONE);
+            viewHolder.txtPolish.setVisibility(View.GONE);
+        }
 
-        //viewHolder.txtTitle.setText(textRow.getTitle());
-        viewHolder.txtRubrics.setText(textRow.getRubrics());
-        viewHolder.txtNigrics.setText(textRow.getNigrics());
-        viewHolder.txtLatin.setText(textRow.getLatin());
-        viewHolder.txtPolish.setText(textRow.getRPolish());
         viewHolder.txtPolish.setTag(position);
 
         // Return the completed view to render on screen

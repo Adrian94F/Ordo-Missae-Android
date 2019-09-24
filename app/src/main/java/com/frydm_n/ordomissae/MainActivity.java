@@ -1,11 +1,7 @@
 package com.frydm_n.ordomissae;
 
+import android.content.Context;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import android.view.View;
 
 import androidx.core.view.GravityCompat;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -19,9 +15,14 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.view.Menu;
 import android.widget.ListView;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity
 
     ArrayList<TextRow> dataModels;
     ListView listView;
-    private static CustomAdapter adapter;
+    private static TextRowAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,24 +60,46 @@ public class MainActivity extends AppCompatActivity
 
         dataModels= new ArrayList<>();
 
-        dataModels.add(new TextRow("tytuł 1", "rubrics", "nigrics", "latin", "polish"));
-        dataModels.add(new TextRow("", "latin", "polish"));
-        dataModels.add(new TextRow("", "latin", "polish"));
-        dataModels.add(new TextRow("", "latin", "polish"));
-        dataModels.add(new TextRow("", "rubrics", "", "latin", "polish"));
-        dataModels.add(new TextRow("tytuł 2"));
-        dataModels.add(new TextRow("", "rubrics", "", "latin", "polish"));
-        dataModels.add(new TextRow("", "latin", "polish"));
-        dataModels.add(new TextRow("", "latin", "polish"));
-        dataModels.add(new TextRow("tytuł 3"));
-        dataModels.add(new TextRow("", "latin", "polish"));
-        dataModels.add(new TextRow("", "", "nigrics", "latin", "polish"));
-        dataModels.add(new TextRow("", "latin", "polish"));
-        dataModels.add(new TextRow("", "latin", "polish"));
+        // read data from json
+        String dataString = getAssetJsonData(getApplicationContext());
+        try {
+            JSONObject data = new JSONObject(dataString);
+            JSONArray rows = data.getJSONArray("data");
+            for (int i = 0; i < rows.length(); i++) {
+                JSONObject insideObject = rows.getJSONObject(i);
+                String title = insideObject.getString("title");
+                int titleLevel = insideObject.getInt("titleLevel");
+                String rubrics = insideObject.getString("rubrics");
+                String nigrics = insideObject.getString("nigrics");
+                String latin = insideObject.getString("latin");
+                String polish = insideObject.getString("polish");
+                dataModels.add(new TextRow(title, titleLevel, rubrics, nigrics, latin, polish));
+            }
 
-        adapter= new CustomAdapter(dataModels,getApplicationContext());
+        } catch (JSONException e) {
+            e.printStackTrace();
+            dataModels.add(new TextRow("Nie udało się odczytać danych"));
+        }
 
+        adapter = new TextRowAdapter(dataModels,getApplicationContext());
         listView.setAdapter(adapter);
+    }
+
+    public static String getAssetJsonData(Context context) {
+        String json = null;
+        try {
+            InputStream is = context.getAssets().open("sancta_missa.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+
     }
 
     @Override
