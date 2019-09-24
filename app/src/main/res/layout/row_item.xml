@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Tytuł..."
+        android:textColor="@color/colorTitle"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rubrics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="5dp"
+        android:text="Rubryki..."
+        android:textColor="@color/colorRubrics" />
+
+    <TextView
+        android:id="@+id/nigrics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rubrics"
+        android:layout_marginTop="5dp"
+        android:text="Nigryki..."
+        android:textColor="@color/colorNigrics" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/nigrics" >
+
+        <TextView
+            android:id="@+id/latin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lingua latina..."
+            android:layout_weight="0.5"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:id="@+id/polish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Język polski...\nwielolinijkowy..."
+            android:layout_weight="0.5"
+            android:textColor="@color/colorText" />
+
+    </LinearLayout>
+
+</RelativeLayout>

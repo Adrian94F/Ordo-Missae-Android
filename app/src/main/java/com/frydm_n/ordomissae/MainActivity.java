@@ -20,9 +20,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    ArrayList<TextRow> dataModels;
+    ListView listView;
+    private static CustomAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +52,31 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
+        listView=(ListView)findViewById(R.id.contentList);
+
+        listView.setDivider(null);
+
+        dataModels= new ArrayList<>();
+
+        dataModels.add(new TextRow("tytuł 1", "rubrics", "nigrics", "latin", "polish"));
+        dataModels.add(new TextRow("", "latin", "polish"));
+        dataModels.add(new TextRow("", "latin", "polish"));
+        dataModels.add(new TextRow("", "latin", "polish"));
+        dataModels.add(new TextRow("", "rubrics", "", "latin", "polish"));
+        dataModels.add(new TextRow("tytuł 2"));
+        dataModels.add(new TextRow("", "rubrics", "", "latin", "polish"));
+        dataModels.add(new TextRow("", "latin", "polish"));
+        dataModels.add(new TextRow("", "latin", "polish"));
+        dataModels.add(new TextRow("tytuł 3"));
+        dataModels.add(new TextRow("", "latin", "polish"));
+        dataModels.add(new TextRow("", "", "nigrics", "latin", "polish"));
+        dataModels.add(new TextRow("", "latin", "polish"));
+        dataModels.add(new TextRow("", "latin", "polish"));
+
+        adapter= new CustomAdapter(dataModels,getApplicationContext());
+
+        listView.setAdapter(adapter);
     }
 
     @Override
