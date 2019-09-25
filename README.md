@@ -5,9 +5,10 @@ Android app with Roman Missal
 
 ## Done
 - Latin and Polish version side by side
+- simple "About" window
 
 ## TODO
-- fill JSON with text
+- fill JSON with the rest of text
 - find out why rows' content disappears after scrolling down and up
 - settings window
   - dark/paper theme
