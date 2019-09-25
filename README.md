@@ -12,6 +12,7 @@ Android app with Roman Missal
 - find out why rows' content disappears after scrolling down and up
 - settings window
   - dark/paper theme
+  - turn on/off translation
 - table of contents window
 - consistent "About app" window
 
