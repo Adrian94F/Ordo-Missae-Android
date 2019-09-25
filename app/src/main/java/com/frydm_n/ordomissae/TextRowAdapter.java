@@ -29,7 +29,6 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
         super(context, R.layout.row_item, data);
         this.dataSet = data;
         this.mContext=context;
-
     }
 
     /*@Override
@@ -88,7 +87,9 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
             viewHolder.txtTitle.setTextSize(22 - 2 * textRow.getTitleLevel());
         }
         else {
-            viewHolder.txtTitle.setVisibility(View.GONE);
+            viewHolder.txtTitle.setHeight(0);
+            viewHolder.txtTitle.setPadding(0, 0, 0, 0);
+            //viewHolder.txtTitle.setVisibility(View.GONE);
         }
 
         String rubrics = textRow.getRubrics();
@@ -96,7 +97,9 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
             viewHolder.txtRubrics.setText(rubrics);
         }
         else {
-            viewHolder.txtRubrics.setVisibility(View.GONE);
+            viewHolder.txtRubrics.setHeight(0);
+            viewHolder.txtRubrics.setPadding(0, 0, 0, 0);
+            //viewHolder.txtRubrics.setVisibility(View.GONE);
         }
 
         String nigrics = textRow.getNigrics();
@@ -104,7 +107,9 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
             viewHolder.txtNigrics.setText(nigrics);
         }
         else {
-            viewHolder.txtNigrics.setVisibility(View.GONE);
+            viewHolder.txtNigrics.setHeight(0);
+            viewHolder.txtNigrics.setPadding(0, 0, 0, 0);
+            //viewHolder.txtNigrics.setVisibility(View.GONE);
         }
 
         String latin = textRow.getLatin();
@@ -114,8 +119,12 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
             viewHolder.txtPolish.setText(polish);
         }
         else {
-            viewHolder.txtLatin.setVisibility(View.GONE);
-            viewHolder.txtPolish.setVisibility(View.GONE);
+            viewHolder.txtLatin.setHeight(0);
+            viewHolder.txtLatin.setPadding(0, 0, 0, 0);
+            //viewHolder.txtLatin.setVisibility(View.GONE);
+            viewHolder.txtPolish.setHeight(0);
+            viewHolder.txtPolish.setPadding(0, 0, 0, 0);
+            //viewHolder.txtPolish.setVisibility(View.GONE);
         }
 
         viewHolder.txtPolish.setTag(position);

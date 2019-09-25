@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#DEDEDE</color>
-    <color name="colorPrimaryDark">#BEBEBE</color>
+    <color name="colorPrimary">#CECECE</color>
+    <color name="colorPrimaryDark">#CECECE</color>
     <color name="colorAccent">#800000</color>
 
     <color name="colorTitle">#222222</color>
