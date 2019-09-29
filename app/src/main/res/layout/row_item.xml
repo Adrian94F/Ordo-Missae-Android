@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/nigrics"
+        android:layout_below="@+id/rubrics"
         android:layout_centerInParent="true" >
 
         <TextView
@@ -20,8 +20,8 @@
             android:paddingStart="0dp"
             android:paddingEnd="5dp"
             android:paddingTop="5dp"
-            android:text="Lingua latina..."
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorText"
+            android:text="" />
 
         <TextView
             android:id="@+id/polish"
@@ -31,8 +31,8 @@
             android:paddingStart="5dp"
             android:paddingEnd="0dp"
             android:paddingTop="5dp"
-            android:text="Język polski...\nwielolinijkowy..."
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorText"
+            android:text="" />
 
     </LinearLayout>
 
@@ -42,27 +42,18 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/title"
         android:paddingTop="5dp"
-        android:text="Rubryki..."
         android:textColor="@color/colorRubrics"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/nigrics"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/rubrics"
-        android:paddingTop="5dp"
-        android:text="Nigryki..."
-        android:textColor="@color/colorNigrics" />
+        android:textStyle="italic"
+        android:text="" />
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:text="Tytuł..."
         android:textColor="@color/colorTitle"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:text="" />
 
 </RelativeLayout>

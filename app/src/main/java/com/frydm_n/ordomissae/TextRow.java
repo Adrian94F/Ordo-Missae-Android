@@ -1,13 +1,11 @@
 package com.frydm_n.ordomissae;
 
 public class TextRow {
-    boolean isTitleVisible;
-    String title;
-    int titleLevel = 0;
-    String rubrics;
-    String nigrics;
-    String latin;
-    String polish;
+    private String title = "";
+    private int titleLevel = 0;
+    private String rubrics = "";
+    private String latin = "";
+    private String polish = "";
 
     TextRow(String t) {
         title = t;
@@ -24,19 +22,17 @@ public class TextRow {
         polish = p;
     }
 
-    TextRow(String t, String r, String n, String l, String p) {
+    TextRow(String t, String r, String l, String p) {
         title = t;
         rubrics = r;
-        nigrics = n;
         latin = l;
         polish = p;
     }
 
-    TextRow(String t, int lvl, String r, String n, String l, String p) {
+    TextRow(String t, int lvl, String r, String l, String p) {
         title = t;
         titleLevel = lvl;
         rubrics = r;
-        nigrics = n;
         latin = l;
         polish = p;
     }
@@ -52,10 +48,6 @@ public class TextRow {
 
     String getRubrics() {
         return rubrics;
-    }
-
-    String getNigrics() {
-        return nigrics;
     }
 
     String getLatin() {

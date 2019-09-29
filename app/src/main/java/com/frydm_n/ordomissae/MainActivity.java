@@ -4,6 +4,8 @@ import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.core.view.GravityCompat;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 
@@ -35,9 +37,16 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Map;
+import java.util.Set;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    ArrayList<TextRow> dataModels;
+    ListView listView;
+    TextRowAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,27 +70,21 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void loadData() {
-        ArrayList<TextRow> dataModels;
-        ListView listView;
-        TextRowAdapter adapter;
-
         listView = (ListView)findViewById(R.id.contentList);
         listView.setDivider(null);
         dataModels = new ArrayList<>();
 
         String dataString = getAssetJsonData(getApplicationContext());
         try {
-            JSONObject data = new JSONObject(dataString);
-            JSONArray rows = data.getJSONArray("data");
+            JSONArray rows = new JSONArray(dataString);
             for (int i = 0; i < rows.length(); i++) {
                 JSONObject insideObject = rows.getJSONObject(i);
                 String title = insideObject.getString("title");
-                int titleLevel = insideObject.getInt("titleLevel");
+                int titleLevel = insideObject.getInt("level");
                 String rubrics = insideObject.getString("rubrics");
-                String nigrics = insideObject.getString("nigrics");
                 String latin = insideObject.getString("latin");
                 String polish = insideObject.getString("polish");
-                dataModels.add(new TextRow(title, titleLevel, rubrics, nigrics, latin, polish));
+                dataModels.add(new TextRow(title, titleLevel, rubrics, latin, polish));
             }
 
         } catch (JSONException e) {
@@ -89,7 +92,7 @@ public class MainActivity extends AppCompatActivity
             dataModels.add(new TextRow("Nie udało się odczytać danych"));
         }
 
-        adapter = new TextRowAdapter(dataModels,getApplicationContext());
+        adapter = new TextRowAdapter(dataModels, getApplicationContext());
         listView.setAdapter(adapter);
     }
 

@@ -20,7 +20,6 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
     private static class ViewHolder {
         TextView txtTitle;
         TextView txtRubrics;
-        TextView txtNigrics;
         TextView txtLatin;
         TextView txtPolish;
     }
@@ -28,7 +27,7 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
     public TextRowAdapter(ArrayList<TextRow> data, Context context) {
         super(context, R.layout.row_item, data);
         this.dataSet = data;
-        this.mContext=context;
+        this.mContext = context;
     }
 
     /*@Override
@@ -65,11 +64,10 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
             convertView = inflater.inflate(R.layout.row_item, parent, false);
             viewHolder.txtTitle = (TextView) convertView.findViewById(R.id.title);
             viewHolder.txtRubrics = (TextView) convertView.findViewById(R.id.rubrics);
-            viewHolder.txtNigrics = (TextView) convertView.findViewById(R.id.nigrics);
             viewHolder.txtLatin = (TextView) convertView.findViewById(R.id.latin);
             viewHolder.txtPolish = (TextView) convertView.findViewById(R.id.polish);
 
-            result=convertView;
+            result = convertView;
 
             convertView.setTag(viewHolder);
         } else {
@@ -82,48 +80,38 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
         lastPosition = position;
 
         String title = textRow.getTitle();
+        viewHolder.txtTitle.setText(title);
         if (title.length() > 0) {
-            viewHolder.txtTitle.setText(title);
             viewHolder.txtTitle.setTextSize(22 - 2 * textRow.getTitleLevel());
         }
         else {
-            viewHolder.txtTitle.setHeight(0);
-            viewHolder.txtTitle.setPadding(0, 0, 0, 0);
+            viewHolder.txtTitle.setTextSize(0);
+            //viewHolder.txtTitle.setHeight(0);
+            //viewHolder.txtTitle.setPadding(0, 0, 0, 0);
             //viewHolder.txtTitle.setVisibility(View.GONE);
         }
 
         String rubrics = textRow.getRubrics();
-        if (rubrics.length() > 0) {
-            viewHolder.txtRubrics.setText(rubrics);
-        }
-        else {
-            viewHolder.txtRubrics.setHeight(0);
-            viewHolder.txtRubrics.setPadding(0, 0, 0, 0);
+        viewHolder.txtRubrics.setText(rubrics);
+        if (rubrics.length() == 0) {
+            //viewHolder.txtRubrics.setTextSize(0);
+            //viewHolder.txtRubrics.setHeight(0);
+            //viewHolder.txtRubrics.setPadding(0, 0, 0, 0);
             //viewHolder.txtRubrics.setVisibility(View.GONE);
-        }
-
-        String nigrics = textRow.getNigrics();
-        if (nigrics.length() > 0) {
-            viewHolder.txtNigrics.setText(nigrics);
-        }
-        else {
-            viewHolder.txtNigrics.setHeight(0);
-            viewHolder.txtNigrics.setPadding(0, 0, 0, 0);
-            //viewHolder.txtNigrics.setVisibility(View.GONE);
         }
 
         String latin = textRow.getLatin();
         String polish = textRow.getPolish();
-        if (latin.length() > 0 || polish.length() > 0) {
-            viewHolder.txtLatin.setText(latin);
-            viewHolder.txtPolish.setText(polish);
-        }
-        else {
-            viewHolder.txtLatin.setHeight(0);
-            viewHolder.txtLatin.setPadding(0, 0, 0, 0);
+        viewHolder.txtLatin.setText(latin);
+        viewHolder.txtPolish.setText(polish);
+        if (latin.length() == 0 || polish.length() == 0) {
+            //viewHolder.txtLatin.setTextSize(0);
+            //viewHolder.txtPolish.setTextSize(0);
+            //viewHolder.txtLatin.setHeight(0);
+            //viewHolder.txtLatin.setPadding(0, 0, 0, 0);
             //viewHolder.txtLatin.setVisibility(View.GONE);
-            viewHolder.txtPolish.setHeight(0);
-            viewHolder.txtPolish.setPadding(0, 0, 0, 0);
+            //viewHolder.txtPolish.setHeight(0);
+            //viewHolder.txtPolish.setPadding(0, 0, 0, 0);
             //viewHolder.txtPolish.setVisibility(View.GONE);
         }
 

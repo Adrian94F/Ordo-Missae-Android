@@ -1,1019 +1,873 @@
+[
 {
-"data" : [ {
-    "title" : "Msza katechumenów",
-    "titleLevel" : 0,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "Część pierwsza",
-    "titleLevel" : 1,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "Asperges – Aspersja",
-    "titleLevel" : 2,
-    "rubrics" : "Tylko w Mszach uroczystych.",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "Psalm wstępny",
-    "titleLevel" : 2,
-    "rubrics" : "Kapłan stanąwszy u stopni ołtarza, żegna się znakiem krzyża i odmawia antyfonę:",
-    "nigrics" : "",
-    "latin" : "S. In nomine Patris, (+) et Filii, et Spiritus Sancti. Amen.",
-    "polish" : "K. W imię Ojca + i Syna i Ducha Świętego. Amen."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "Introibo ad altare Dei.",
-    "polish" : "Przystąpię do ołtarza Bożego."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Ad deum qui laetificat iuventutem meam.",
-    "polish" : "W. Do Boga, który jest weselem moim od młodości."
-  }, {
-    "title" : "Psalm 42",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Iudica me Deus, et discerne causam meam de gente non sancta: ab homine iniquo et doloso erue me.",
-    "polish" : "K. Bądź mi sędzia, o Boże i rozsądź sprawę moją z narodem bezbożnym; wybaw mnie od człowieka niedobrego i fałszywego"
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Quia tu es Deus fortitudo mea: quare me repulisti, et quare tristis incedo, dum affligit me inimicus?",
-    "polish" : "W. Wszak Ty jesteś, o Boże mocą moją; czemu mnie odrzucasz i czemu smutny chodzę, gdy nieprzyjaciel mnie nęka?"
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Emitte lucem tuam, et veritatem tuam: ipsa me deduxerunt, et adduxerunt in montem sanctum tuum, et in tabernacula tua.",
-    "polish" : "K. Ześlij światłość Swoją i prawdę Swoją; one mnie poprowadzą i przywiodą na góre święta Twoją, aż do przybytków Twoich."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Et introibo ad altare Dei: ad Deum qui laetificat iuventutem meam.",
-    "polish" : "W. I przystąpię do ołtarza Bożego, do Boga, który jest weselem moim od młodości."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Confitebor tibi in cithara Deus, Deus meus: quare tristis es anima mea, et quare conturbas me?",
-    "polish" : "K. Chwalić Cię będę przy dźwiękach cytry, Boże, Boże mój; czemuś smutna, duszo moja, i czemu mnie trwożysz?"
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Spera in Deo, quoniam adhuc confitebor illi: salutare vultus mei, et Deus meus.",
-    "polish" : "W. Ufaj Bogu, albowiem jeszcze uwielbiać Go będę, jako Zbawcę i Boga mego."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Gloria Patri, et Filio, et Spiritu Sancto.",
-    "polish" : "K. Chwała Ojcu i Synowi, i Duchowi Świętemu"
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen.",
-    "polish" : "W. Jak było na początku, teraz i zawsze i na wieki wieków Amen."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Introibo ad altare Dei",
-    "polish" : "K. Przystąpię do ołtarza Bożego"
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Ad Deum qui laetificat iuventutem meam.",
-    "polish" : "W. Do Boga, który jest weselem moim od młodości"
-  }, {
-    "title" : "Confiteor – Spowiedź powszechna",
-    "titleLevel" : 2,
-    "rubrics" : "Wobec Boga i Kościoła powszechnego oskarżamy się publicznie o winy nasze, abyśmy tym głębszą w sobie obudzili skruchę.",
-    "nigrics" : "",
-    "latin" : "S. Adiutorium nostrum (+) in nomine Domini.",
-    "polish" : "K. Wspomożenie nasze (+) w Imieniu Pana."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Qui fecit caelum et terram.",
-    "polish" : "W. Który stworzył niebo i ziemię."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "Kapłan głęboko pochylony odmawia spowiedź ogólną",
-    "nigrics" : "",
-    "latin" : "S. Confiteor Deo omnipotenti, beatae Mariae semper Virgini, beato Michaeli Archangelo, beato Ioanni Baptistae, sanctis Apostolis Petro et Paulo, omnibus Sanctis et vobis fratres, quia peccavi nimis cogitatione, verbo, et opere: mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper Virginem, beatum Michaelem Archangelum, beatum Ioannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et vos fratres, orare pro me ad Dominum Deum nostrum.",
-    "polish" : "K. Spowiadam się Bogu wszechmogącemu, Najświętszej Maryi zawsze Dziewicy, świętemu Michałowi Archaniołowi, świętemu Janowi Chrzcicielowi, świętym Apostołom Piotrowi i Pawłowi, wszystkim Świętym i wam, bracia, że bardzo zgrzeszyłem, myślą, mową i uczynkiem: Ksiądz uderza się trzykroć w piersi moja wina, moja wina, moja bardzo wielka wina. Przeto błagam Najświętszą Maryję zawsze Dziewicę, świętego Michała Archanioła, świętego Jana Chrzciciela, świętych Apostołów Piotra i Pawła, wszystkich świętych, i was, bracia, abyście się za mnie modlili do Pana Boga naszego."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "Ministrant i wierni proszą za kapłanem",
-    "nigrics" : "",
-    "latin" : "M. Misereatur tui omnipotens Deus, et dimissis peccatis tuis, perducat te ad vitam aeternam.",
-    "polish" : "W. Niech się zmiłuje nad tobą Bóg wszechmogący, a odpuściwszy ci grzechy twoje, niech cię doprowadzi do żywota wiecznego."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Amen.",
-    "polish" : "K. Amen."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "Ministrant i wierni mówią pochyleni",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Confiteor Deo omnipotenti, beatae Mariae semper Virgini, beato Michaeli Archangelo, beato Ioanni Baptistae, sanctis Apostolis Petro et Paulo, omnibus Sanctis et tibi, Pater, quia peccavi nimis cogitatione, verbo, et opere:",
-    "polish" : "W. Spowiadam się Bogu wszechmogącemu, Najświętszej Maryi zawsze Dziewicy, świętemu Michałowi Archaniołowi, świętemu Janowi Chrzcicielowi, świętym Apostołom Piotrowi i Pawłowi, wszystkim Świętym i tobie, Ojcze, żem zgrzeszył bardzo myślą, mową i uczynkiem:"
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "Uderzyć się trzykroć w piersi mówiąc:",
-    "nigrics" : "",
-    "latin" : "mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper virginem, beatum Michaelem archangelum, beatum Ioannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et te, Pater, orare pro me ad Dominum Deum nostrum.",
-    "polish" : "moja wina, moja wina, moja bardzo wielka wina. Przeto błagam Najświętszą Maryję zawsze Dziewicę, świętego Michała Archanioła, świętego Jana Chrzciciela, świętych Apostołów Piotra i Pawła, wszystkich świętych, i ciebie, Ojcze, o modlitwę do Pana Boga naszego."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "Kapłan wstawia się za ogółem wiernych",
-    "nigrics" : "",
-    "latin" : "S. Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam aeternam.",
-    "polish" : "K. Niech się zmiłuje nad wami Bóg wszechmogący, a odpuściwszy wam grzechy, niech was doprowadzi do żywota wiecznego."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Amen.",
-    "polish" : "W. Amen."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Indulgentiam, (+) absolutionem et remissionem peccatorum nostrorum, tribuat nobis omnipotens et misericors Dominus.",
-    "polish" : "K. Pan wszechmogący i miłosierny niechaj nam udzieli przebaczenia, (+) rozgrzeszenia i odpuszczenia grzechów naszych."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Amen.",
-    "polish" : "W. Amen."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "Lekko pochylony kapłan mówi dalej",
-    "nigrics" : "",
-    "latin" : "S. Deus, tu conversus vivificabis nos.",
-    "polish" : "K. O Boże, tchnij w nas życie nowe"
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Et plebs tua laetabitur in te.",
-    "polish" : "W. A lud Twój rozraduje się w Tobie."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Ostende nobis, Domine, misericordiam tuam.",
-    "polish" : "K. Okaz nam, Panie, miłosierdzie Twoje."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Et salutare tuum da nobis.",
-    "polish" : "W. I daj nam zbawienie Twoje."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Domine, exaudi orationem meam.",
-    "polish" : "K. Panie, wysłuchaj modlitwy mojej."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Et clamor meus ad te veniat",
-    "polish" : "W. A wołanie moje niech do Ciebie przyjdzie."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Dominus vobiscum.",
-    "polish" : "K. Pan z wami."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "M. Et cum spiritu tuo.",
-    "polish" : "W. I z duchem twoim."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "S. Oremus.",
-    "polish" : "K. Módlmy się"
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "Kapłan wstępuje po stopniach ołtarza - ministranci wstają razem i klękają na pierwszym stopniu. Wstępując po stopniach ołtarza kapłan mówi:",
-    "nigrics" : "",
-    "latin" : "Aufer a nobis, quaesumus, Domine, iniquitates nostras: ut ad Sancta sanctorum puris mereamur mentibus introire. Per Christum, Dominum nostrum. Amen.",
-    "polish" : "Zgładź nieprawości nasze, prosimy Cię, Panie, abyśmy do przybytku najświętszego z czystym sercem mogli przystąpić. Przez Chrystusa, Pana naszego. Amen."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "Całując ołtarz, w którym są zawarte relikwie świętych:",
-    "nigrics" : "",
-    "latin" : "Oramus te, Domine, per merita Sanctorum tuorum quorum reliquiae hic sunt, et omnium Sanctorum: ut indulgere digneris omnia peccata mea. Amen.",
-    "polish" : "Prosimy Cię, Panie, racz dla zasług Świętych Twoich, których szczątki (relikwie) tu się znajdują, oraz wszystkich Świętych, odpuścić wszystkie grzechy moje. Amen."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "Podczas Mszy z asystą kapłan błogosławi kadzidło i mówi:",
-    "nigrics" : "",
-    "latin" : "Ab illo benedicaris in cuius honore cremaberis. Amen.",
-    "polish" : "Niechaj cię Ten błogosławi, na którego cześć spalać się będziesz. Amen."
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "Kadzidło, które spala się i dym unoszący się w górę są symbolem naszych modlitw i ofiar. Kapłan okadza ołtarz, następnie diakon okadza celebransa jako przedstawiciela Chrystusa.",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "Introit",
-    "titleLevel" : 2,
-    "rubrics" : "Kapłan przechodzi na prawą stronę ołtarza i odczytuje Introit przypadający na dany dzień.",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "Część druga",
-    "titleLevel" : 1,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "Kyrie – błagalne wołanie",
-    "titleLevel" : 2,
-    "rubrics" : "Kyrie jest to krotka litania pochodząca z liturgii grekokatolickiej. Składa się ona z trzykrotnego wezwania o pomoc do każdej z Trzech Osób Trójcy Przenajświętszej",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }, {
-    "title" : "",
-    "titleLevel" : 2,
-    "rubrics" : "",
-    "nigrics" : "",
-    "latin" : "",
-    "polish" : ""
-  }
-  ]
+  "title" : "Msza katechumenów",
+  "level" : 0,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Część pierwsza",
+  "level" : 1,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Asperges – Aspersja",
+  "level" : 2,
+  "rubrics" : "Tylko w Mszach uroczystych.",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Psalm wstępny",
+  "level" : 2,
+  "rubrics" : "Kapłan stanąwszy u stopni ołtarza, żegna się znakiem krzyża i odmawia antyfonę:",
+  "latin" : "S. In nomine Patris, (+) et Filii, et Spiritus Sancti. Amen.",
+  "polish" : "K. W imię Ojca + i Syna i Ducha Świętego. Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "Introibo ad altare Dei.",
+  "polish" : "Przystąpię do ołtarza Bożego."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Ad deum qui laetificat iuventutem meam.",
+  "polish" : "W. Do Boga, który jest weselem moim od młodości."
+}, {
+  "title" : "Psalm 42",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Iudica me Deus, et discerne causam meam de gente non sancta: ab homine iniquo et doloso erue me.",
+  "polish" : "K. Bądź mi sędzia, o Boże i rozsądź sprawę moją z narodem bezbożnym; wybaw mnie od człowieka niedobrego i fałszywego"
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Quia tu es Deus fortitudo mea: quare me repulisti, et quare tristis incedo, dum affligit me inimicus?",
+  "polish" : "W. Wszak Ty jesteś, o Boże mocą moją; czemu mnie odrzucasz i czemu smutny chodzę, gdy nieprzyjaciel mnie nęka?"
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Emitte lucem tuam, et veritatem tuam: ipsa me deduxerunt, et adduxerunt in montem sanctum tuum, et in tabernacula tua.",
+  "polish" : "K. Ześlij światłość Swoją i prawdę Swoją; one mnie poprowadzą i przywiodą na góre święta Twoją, aż do przybytków Twoich."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Et introibo ad altare Dei: ad Deum qui laetificat iuventutem meam.",
+  "polish" : "W. I przystąpię do ołtarza Bożego, do Boga, który jest weselem moim od młodości."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Confitebor tibi in cithara Deus, Deus meus: quare tristis es anima mea, et quare conturbas me?",
+  "polish" : "K. Chwalić Cię będę przy dźwiękach cytry, Boże, Boże mój; czemuś smutna, duszo moja, i czemu mnie trwożysz?"
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Spera in Deo, quoniam adhuc confitebor illi: salutare vultus mei, et Deus meus.",
+  "polish" : "W. Ufaj Bogu, albowiem jeszcze uwielbiać Go będę, jako Zbawcę i Boga mego."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Gloria Patri, et Filio, et Spiritu Sancto.",
+  "polish" : "K. Chwała Ojcu i Synowi, i Duchowi Świętemu"
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen.",
+  "polish" : "W. Jak było na początku, teraz i zawsze i na wieki wieków Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Introibo ad altare Dei",
+  "polish" : "K. Przystąpię do ołtarza Bożego"
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Ad Deum qui laetificat iuventutem meam.",
+  "polish" : "W. Do Boga, który jest weselem moim od młodości"
+}, {
+  "title" : "Confiteor – Spowiedź powszechna",
+  "level" : 2,
+  "rubrics" : "Wobec Boga i Kościoła powszechnego oskarżamy się publicznie o winy nasze, abyśmy tym głębszą w sobie obudzili skruchę.",
+  "latin" : "S. Adiutorium nostrum (+) in nomine Domini.",
+  "polish" : "K. Wspomożenie nasze (+) w Imieniu Pana."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Qui fecit caelum et terram.",
+  "polish" : "W. Który stworzył niebo i ziemię."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Kapłan głęboko pochylony odmawia spowiedź ogólną",
+  "latin" : "S. Confiteor Deo omnipotenti, beatae Mariae semper Virgini, beato Michaeli Archangelo, beato Ioanni Baptistae, sanctis Apostolis Petro et Paulo, omnibus Sanctis et vobis fratres, quia peccavi nimis cogitatione, verbo, et opere: mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper Virginem, beatum Michaelem Archangelum, beatum Ioannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et vos fratres, orare pro me ad Dominum Deum nostrum.",
+  "polish" : "K. Spowiadam się Bogu wszechmogącemu, Najświętszej Maryi zawsze Dziewicy, świętemu Michałowi Archaniołowi, świętemu Janowi Chrzcicielowi, świętym Apostołom Piotrowi i Pawłowi, wszystkim Świętym i wam, bracia, że bardzo zgrzeszyłem, myślą, mową i uczynkiem: Ksiądz uderza się trzykroć w piersi moja wina, moja wina, moja bardzo wielka wina. Przeto błagam Najświętszą Maryję zawsze Dziewicę, świętego Michała Archanioła, świętego Jana Chrzciciela, świętych Apostołów Piotra i Pawła, wszystkich świętych, i was, bracia, abyście się za mnie modlili do Pana Boga naszego."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Ministrant i wierni proszą za kapłanem",
+  "latin" : "M. Misereatur tui omnipotens Deus, et dimissis peccatis tuis, perducat te ad vitam aeternam.",
+  "polish" : "W. Niech się zmiłuje nad tobą Bóg wszechmogący, a odpuściwszy ci grzechy twoje, niech cię doprowadzi do żywota wiecznego."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Amen.",
+  "polish" : "K. Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Ministrant i wierni mówią pochyleni",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Confiteor Deo omnipotenti, beatae Mariae semper Virgini, beato Michaeli Archangelo, beato Ioanni Baptistae, sanctis Apostolis Petro et Paulo, omnibus Sanctis et tibi, Pater, quia peccavi nimis cogitatione, verbo, et opere:",
+  "polish" : "W. Spowiadam się Bogu wszechmogącemu, Najświętszej Maryi zawsze Dziewicy, świętemu Michałowi Archaniołowi, świętemu Janowi Chrzcicielowi, świętym Apostołom Piotrowi i Pawłowi, wszystkim Świętym i tobie, Ojcze, żem zgrzeszył bardzo myślą, mową i uczynkiem:"
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Uderzyć się trzykroć w piersi mówiąc:",
+  "latin" : "mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper virginem, beatum Michaelem archangelum, beatum Ioannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et te, Pater, orare pro me ad Dominum Deum nostrum.",
+  "polish" : "moja wina, moja wina, moja bardzo wielka wina. Przeto błagam Najświętszą Maryję zawsze Dziewicę, świętego Michała Archanioła, świętego Jana Chrzciciela, świętych Apostołów Piotra i Pawła, wszystkich świętych, i ciebie, Ojcze, o modlitwę do Pana Boga naszego."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Kapłan wstawia się za ogółem wiernych",
+  "latin" : "S. Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam aeternam.",
+  "polish" : "K. Niech się zmiłuje nad wami Bóg wszechmogący, a odpuściwszy wam grzechy, niech was doprowadzi do żywota wiecznego."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Amen.",
+  "polish" : "W. Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Indulgentiam, (+) absolutionem et remissionem peccatorum nostrorum, tribuat nobis omnipotens et misericors Dominus.",
+  "polish" : "K. Pan wszechmogący i miłosierny niechaj nam udzieli przebaczenia, (+) rozgrzeszenia i odpuszczenia grzechów naszych."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Amen.",
+  "polish" : "W. Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Lekko pochylony kapłan mówi dalej",
+  "latin" : "S. Deus, tu conversus vivificabis nos.",
+  "polish" : "K. O Boże, tchnij w nas życie nowe"
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Et plebs tua laetabitur in te.",
+  "polish" : "W. A lud Twój rozraduje się w Tobie."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Ostende nobis, Domine, misericordiam tuam.",
+  "polish" : "K. Okaz nam, Panie, miłosierdzie Twoje."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Et salutare tuum da nobis.",
+  "polish" : "W. I daj nam zbawienie Twoje."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Domine, exaudi orationem meam.",
+  "polish" : "K. Panie, wysłuchaj modlitwy mojej."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Et clamor meus ad te veniat",
+  "polish" : "W. A wołanie moje niech do Ciebie przyjdzie."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Dominus vobiscum.",
+  "polish" : "K. Pan z wami."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Et cum spiritu tuo.",
+  "polish" : "W. I z duchem twoim."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Oremus.",
+  "polish" : "K. Módlmy się"
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Kapłan wstępuje po stopniach ołtarza - ministranci wstają razem i klękają na pierwszym stopniu. Wstępując po stopniach ołtarza kapłan mówi:",
+  "latin" : "Aufer a nobis, quaesumus, Domine, iniquitates nostras: ut ad Sancta sanctorum puris mereamur mentibus introire. Per Christum, Dominum nostrum. Amen.",
+  "polish" : "Zgładź nieprawości nasze, prosimy Cię, Panie, abyśmy do przybytku najświętszego z czystym sercem mogli przystąpić. Przez Chrystusa, Pana naszego. Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Całując ołtarz, w którym są zawarte relikwie świętych:",
+  "latin" : "Oramus te, Domine, per merita Sanctorum tuorum quorum reliquiae hic sunt, et omnium Sanctorum: ut indulgere digneris omnia peccata mea. Amen.",
+  "polish" : "Prosimy Cię, Panie, racz dla zasług Świętych Twoich, których szczątki (relikwie) tu się znajdują, oraz wszystkich Świętych, odpuścić wszystkie grzechy moje. Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Podczas Mszy z asystą kapłan błogosławi kadzidło i mówi:",
+  "latin" : "Ab illo benedicaris in cuius honore cremaberis. Amen.",
+  "polish" : "Niechaj cię Ten błogosławi, na którego cześć spalać się będziesz. Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Kadzidło, które spala się i dym unoszący się w górę są symbolem naszych modlitw i ofiar. Kapłan okadza ołtarz, następnie diakon okadza celebransa jako przedstawiciela Chrystusa.",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Introit",
+  "level" : 2,
+  "rubrics" : "Kapłan przechodzi na prawą stronę ołtarza i odczytuje Introit przypadający na dany dzień.",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Część druga",
+  "level" : 1,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Kyrie – błagalne wołanie",
+  "level" : 2,
+  "rubrics" : "Kyrie jest to krotka litania pochodząca z liturgii grekokatolickiej. Składa się ona z trzykrotnego wezwania o pomoc do każdej z Trzech Osób Trójcy Przenajświętszej",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
 }
+]
