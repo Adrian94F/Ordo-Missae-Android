@@ -12,6 +12,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+
 public class TocFragment extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -23,6 +25,7 @@ public class TocFragment extends DialogFragment {
         builderSingle.setTitle(getResources().getString(R.string.menu_toc));
 
         JSONArray rows = MainActivity.rows;
+
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.select_dialog_item);
 
         for (int i = 0; i < rows.length(); i++) {
@@ -53,6 +56,14 @@ public class TocFragment extends DialogFragment {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 String strName = arrayAdapter.getItem(which);
+                ArrayList<TextRow> textRows = MainActivity.textRowsList;
+                int index = 0;
+                for (; index < textRows.size(); index++) {
+                    if (textRows.get(index).getTitle().equals(strName)) {
+                        //MainActivity.scrollTo(index);
+                        break;
+                    }
+                }
                 AlertDialog.Builder builderInner = new AlertDialog.Builder(getActivity());
                 builderInner.setMessage(strName);
                 builderInner.setTitle("Wybrałeś");

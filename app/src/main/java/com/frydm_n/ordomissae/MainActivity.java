@@ -29,7 +29,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    ArrayList<TextRow> textRowsList;
+    static ArrayList<TextRow> textRowsList;
     static JSONArray rows;
     ListView listView;
     TextRowAdapter adapter;

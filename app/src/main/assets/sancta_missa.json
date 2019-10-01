@@ -37,7 +37,7 @@
   "polish" : "W. Do Boga, który jest weselem moim od młodości."
 }, {
   "title" : "Psalm 42",
-  "level" : 2,
+  "level" : 3,
   "rubrics" : "",
   "latin" : "S. Iudica me Deus, et discerne causam meam de gente non sancta: ab homine iniquo et doloso erue me.",
   "polish" : "K. Bądź mi sędzia, o Boże i rozsądź sprawę moją z narodem bezbożnym; wybaw mnie od człowieka niedobrego i fałszywego"
@@ -267,356 +267,392 @@
   "title" : "",
   "level" : 2,
   "rubrics" : "",
+  "latin" : "S. Kyrie eleison.",
+  "polish" : "K. Panie, zmiłuj się."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Kyrie eleison.",
+  "polish" : "W. Panie, zmiłuj się."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Kyrie eleison.",
+  "polish" : "K. Panie, zmiłuj się."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Christe eleison",
+  "polish" : "W. Chryste, zmiłuj się."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Christe eleison",
+  "polish" : "K. Chryste, zmiłuj się."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Christe eleison",
+  "polish" : "W. Chryste, zmiłuj się."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Kyrie eleison.",
+  "polish" : "K. Panie, zmiłuj się."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Kyrie eleison.",
+  "polish" : "W. Panie, zmiłuj się."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Kyrie eleison.",
+  "polish" : "K. Panie, zmiłuj się."
+}, {
+  "title" : "Gloria – Chwała Trójcy Przenajświętszej",
+  "level" : 2,
+  "rubrics" : "Gloria jest to pieśń chwalebna i dziękczynna za wszystkie dary, których udziela nam Trójca Przenajświętsza. Pieśń te opuszcza się we Mszach odprawianych w kolorze czarnym i fioletowym, oraz zielonym w ciągu tygodnia i we Mszach wotywnych.",
+  "latin" : "S. Gloria in excelsis Deo.",
+  "polish" : "K. Chwała na wysokości Bogu."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Et in terra pax hominibus bonae voluntatis. * Laudamus te. * Benedecicimus te. * Adoramus te. * Glorificamus te.* Gratias agimus tibi propter magnam gloriam tuam. Domine Deus, Rex caelestis, * Deus Pater omnipotens. Domine Fili unigenite, Iesu Christe. * Domine Deus, Agnus Dei, Filius Patris. * Qui tollis peccata mundi, * miserere nobis. * Qui tollis peccata mundi, * suscipe deprecationem nostram. * Qui sedes ad dexteram Patris, miserere nobis. * Quoniam tu solus Sanctus. * Tu solus Dominus.* Tu solus Altissimus, Iesu Christe. Cum Sancto Spiritu (+) in gloria Dei Patris. Amen.",
+  "polish" : "W. A na ziemi pokój ludziom dobrej woli. * Chwalimy Cię * Błogosławimy Cię * Wielbimy Cię * Wysławiamy Cię * Dzięki Ci składamy, bo wielka jest chwała Twoja. Panie Boże, Królu Niebios, * Boże, Ojcze wszechmogący. Panie Synu Jednorodzony, Jezu Chryste. * Panie Boże, Baranku Boży, Synu Ojca. * Który gładzisz grzechy świata, *zmiłuj się nad nami. * Który gładzisz grzechy świata,* przyjm błagania nasze. * Który siedzisz po prawicy Ojca, zmiłuj się nad nami. * Albowiem tylko Tyś sam jeden święty * Tylko Tyś jest Panem. * Tylko Tyś najwyższy, Jezu Chryste. Z Duchem Świętym (+) w chwale Boga Ojca. Amen."
+}, {
+  "title" : "Kolekta – Modlitwa Kościelna",
+  "level" : 2,
+  "rubrics" : "Kapłan całuje ołtarz, następnie pozdrawia wiernych wżywając ich do modlitwy.",
+  "latin" : "S. Dominus vobiscum.",
+  "polish" : "K. Pan z wami."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Et cum spiritu tuo.",
+  "polish" : "W. I z duchem twoim."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Oremus.",
+  "polish" : "K. Módlmy się"
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Kapłan wraca do mszału, aby odczytać uroczystą modlitwę Kościoła, zwaną również Kolektą, czyli modlitwą zgromadzenia. W naszym to imieniu prosi kapłan Boga, by wejrzał na potrzeby swojego ludu, użyczył mu łaski i szczęśliwie doprowadził do życia wiecznego.",
   "latin" : "",
   "polish" : ""
 }, {
   "title" : "",
   "level" : 2,
+  "rubrics" : "Do głównej kolekty dochodzą często dodatkowe. Pierwsza i ostatnia kończą się słowami:",
+  "latin" : "S. Per omnia saecula saeculorum.",
+  "polish" : "K. Przez wszystkie wieki wieków."
+}, {
+  "title" : "",
+  "level" : 2,
   "rubrics" : "",
+  "latin" : "M. Amen.",
+  "polish" : "W. Amen."
+}, {
+  "title" : "Część trzecia",
+  "level" : 1,
+  "rubrics" : "",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Lekcja",
+  "level" : 2,
+  "rubrics" : "W trzeciej części Bóg odpowiada na nasze modlitwy, pouczając nas słowem natchnionym o Sobie i o naszych względem Niego obowiązkach.",
   "latin" : "",
   "polish" : ""
 }, {
   "title" : "",
   "level" : 2,
-  "rubrics" : "",
+  "rubrics" : "Pierwsze czytanie jest wyjęte z Pism Starego Testamentu, lub z listów i Dziejów Apostolskich. W niektóre dni postne mamy dwie lub sześć lekcji. We Mszach z asystą Lekcja jest śpiewana przez subdiakona.",
   "latin" : "",
   "polish" : ""
 }, {
   "title" : "",
   "level" : 2,
-  "rubrics" : "",
+  "rubrics" : "Po skończonym czytaniu odpowiada się:",
+  "latin" : "M. Deo gratias.",
+  "polish" : "W. Bogu niech będą dzięki."
+}, {
+  "title" : "Graduał i Alleluja (względnie Traktus, Sekwencja)",
+  "level" : 2,
+  "rubrics" : "Po Lekcji chór śpiewa (względnie kapłan czyta) tekst śpiewu miedzylekcyjnego zwanego Graduałem. Tekst ów jest przeważnie wyjęty z Psałterza, streszcza pobożne uczucia, jakie nam czytanie Pisma Świętego nasunęło. Alleluja - słowo hebrajskie, oznaczające \"śpiewajcie Panu\" – jest okrzykiem radości płynącej z serca Kościoła Świętego na skutek dobrodziejstw Bożych.",
   "latin" : "",
   "polish" : ""
 }, {
   "title" : "",
   "level" : 2,
-  "rubrics" : "",
+  "rubrics" : "W dni postne Alleluja zastąpione jest przez Traktus - czyli Psalm. W niektóre uroczystości śpiewa się również utwór rytmiczny zwany Sekwencją, np. Dies Irae, Stabat Mater, Veni Creator i inne.",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Przygotowanie do Ewangelii",
+  "level" : 2,
+  "rubrics" : "Po śpiewie miedzylekcyjnym kapłan głęboko pochylony przed środkiem ołtarza modli się (Iz 6):",
+  "latin" : "Munda cor meum, ac labia mea, omnipotens Deus, qui labia Isaiae Prophetae calculo mundasti ignito: ita me tua grata miseratione dignare mundare, ut sanctum Evangelium tuum digne valeam nuntiare. Per Christum Dominum nostrum. Amen.",
+  "polish" : "Oczyść serce moje i wargi moje, wszechmogący Boże, któryś wargi Izajasza proroka rozżarzonym węglem oczyścił. I mnie też przez łaskawe miłosierdzie swoje racz tak oczyścić, iżbym mógł godnie opowiadać święta Ewangelię Twoją. Przez Chrystusa, Pana naszego. Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Podczas Mszy z asytą diakon kładzie księgę Ewangelii na ołtarzu, a po nasypaniu kadzidła przez celebransa klęka na najwyższym stopniu, odmawia Munda cor i prosi o błogosławieństwo, którego udziela mu kapłan.",
   "latin" : "",
   "polish" : ""
 }, {
   "title" : "",
   "level" : 2,
-  "rubrics" : "",
+  "rubrics" : "W cichej Mszy św. modlitwę tę odmawia sam kapłan - we Mszach żałobnych opuszcza się ją.",
+  "latin" : "Jube, domne (Domine) benedicere. Dominus sit in corde meo (tuo) et in labiis meis (tuis): ut digne et competenter annuntiem (annunties) Evangelium suum (: in nomine Patris, et Filii, + et Spiritus Sancti). Amen.",
+  "polish" : "Racz, Panie, pobłogosławić. Pan niech będzie w sercu moim (twoim) i na ustach moich (twoich), abym (byś) godnie i umiejętnie głosił Ewangelię Jego. (W imię Ojca i Syna + i Ducha Świętego.) Amen."
+}, {
+  "title" : "Ewangelia",
+  "level" : 2,
+  "rubrics" : "Kapłan (podczas Mszy św. z asystą diakon) przechodzi na stronę Ewangelii i czyta (względnie śpiewa) naznaczywszy poprzednio mszał, czoło, usta i piersi znakiem krzyża.",
   "latin" : "",
   "polish" : ""
 }, {
   "title" : "",
   "level" : 2,
-  "rubrics" : "",
+  "rubrics" : "W Ewangelii przemawia do nas sam Pan Jezus.",
   "latin" : "",
   "polish" : ""
 }, {
   "title" : "",
   "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
+  "rubrics" : "Wierni wstają.",
+  "latin" : "S. Dominus vobiscum.",
+  "polish" : "K. Pan z wami."
 }, {
   "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Et cum spiritu tuo.",
+  "polish" : "W. I z duchem twoim"
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "S. Sequentia (Initium) sancti Evangelii secundum Matthaeum (Marcum, Lucam, Ioannem).",
+  "polish" : "K. Wyjątek z (Początek) Ewangelii według św. Mateusza (Marka, Łukasza, Jana)."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Gloria tibi, Domine.",
+  "polish" : "W. Chwała Tobie, Panie."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Skończywszy czytać Ewangelię kapłan całuje mszał i mówi po cichu:",
+  "latin" : "Per evangelica dicta deleantur nostra delicta.",
+  "polish" : "Niech słowa Ewangelii zgłaszą nasze grzechy."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "",
+  "latin" : "M. Laus tibi, Christe.",
+  "polish" : "W. Chwała Tobie Chryste."
+}, {
+  "title" : "Kazanie",
   "level" : 2,
   "rubrics" : "",
   "latin" : "",
   "polish" : ""
 }, {
-  "title" : "",
+  "title" : "Credo – Wyznanie wiary",
   "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
+  "rubrics" : "Odmawia się w niedziele, święta 1 klasy, w święta Pańskie i Matki Bożej, w główne święta Apostołów i Ewangelistów, w końcu we Mszach wotywnych i uroczystościach śpiewanych.",
+  "latin" : "S. Credo in unum Deum:",
+  "polish" : "K. Wierzę w jednego Boga,"
 }, {
   "title" : "",
   "level" : 2,
   "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
+  "latin" : "M. Patrem omnipotentem, factorem caeli et terrae, * visibilium omnium et invisibilium. * Et in unum Dominum, Iesum Christum, Filium Dei unigenitum. * Et ex Patre natum ante omnia saecula. * Deum de Deo, lumen de lumine, Deum verum de Deo vero. * Genitum non factum, consubstantialem Patri: per quem omnia facta sunt. Qui propter nos homines, et propter nostram salutem descendit de caelis. * (PRZYKLEKNĄĆ) ET INCARNATUS EST DE SPIRITU SANCTO EX MARIA VIRGINE: ET HOMO FACTUS EST. * Crucifixus etiam pro nobis: sub Pontio Pilato passus, et sepultus est. * Et resurrexit tertia die, secundum Scripturas. Et ascendit in caelum: sedet ad dexteram Patris. * Et iterum venturus est cum gloria iudicare vivos, et mortuos: cuius regni non erit finis. * Et in Spiritum Sanctum, Dominum et vivificantem: * Qui ex Patre Filioque procedit. * Qui cum Patre et Filio simul adoratur, et conglorificatur: qui locutus est per Prophetas. * Et unam, sanctam, catholicam et apostolicam Ecclesiam. * Confiteor unum baptisma in remissionem peccatorum. * Et exspecto resurrectionem mortuorum. Et vitam (+) venturi saeculi. Amen.",
+  "polish" : "W. Ojca wszechmogącego, Stworzyciela nieba i ziemi, wszystkich rzeczy widzialnych i niewidzialnych. I w jednego Pana Jezusa Chrystusa, Syna Bożego jednorodzonego, który z Ojca jest zrodzony przed wszystkimi wiekami. Bóg z Boga, Światłość ze Światłości. Bóg prawdziwy z Boga prawdziwego. Zrodzony a nie stworzony, współistotny Ojcu, a przez Niego wszystko się stało. On to dla nas ludzi i dla naszego zbawienia zstąpił z niebios. (PRZYKLEKNĄĆ) I ZA SPRAWĄ DUCHA ŚWIĘTEGO PRZYJĄŁ CIAŁO Z MARYI DZIEWICY I STAŁ SIĘ CZŁOWIEKIEM. Ukrzyżowany również za nas, pod Poncjuszem Piłatem został umęczony i pogrzebany. I zmartwychwstał dnia trzeciego, jak oznajmia Pismo. I wstąpił do nieba, siedzi po prawicy Ojca. I powtórnie przyjdzie w chwale sądzić żywych i umarłych, a Królestwu Jego nie będzie końca. Wierzę w Ducha Świętego, Pana i Ożywiciela, który od Ojca i Syna pochodzi, który z Ojcem i Synem wspólnie odbiera uwielbienie i chwałę, który mówił przez Proroków. Wierzę w jeden, święty, powszechny i apostolski Kościół. Wyznaję jeden chrzest na odpuszczenie grzechów. I oczekuję wskrzeszenia umarłych i życia wiecznego (+) w przyszłym świecie. Amen."
 }, {
-  "title" : "",
-  "level" : 2,
+  "title" : "Msza wiernych",
+  "level" : 0,
   "rubrics" : "",
   "latin" : "",
   "polish" : ""
 }, {
-  "title" : "",
-  "level" : 2,
+  "title" : "Część pierwsza",
+  "level" : 1,
   "rubrics" : "",
   "latin" : "",
   "polish" : ""
 }, {
-  "title" : "",
+  "title" : "Offertorium – Ofertorium",
   "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
+  "rubrics" : "\"Kapłan całuje ołtarz i pozdrawia wiernych wzywając wszystkich do modlitwy.\"",
+  "latin" : "S. Dominus vobiscum.",
+  "polish" : "K. Pan z wami."
 }, {
   "title" : "",
   "level" : 2,
   "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
+  "latin" : "M. Et cum spiritu tuo.",
+  "polish" : "W. I z duchem twoim."
 }, {
   "title" : "",
   "level" : 2,
   "rubrics" : "",
+  "latin" : "S. Oremus",
+  "polish" : "K. Modlmy sie."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Podczas ofiarowania chór śpiewa antyfonę offertorium z danego dnia. We Mszach cichych kapłan sam ją odmawia. W chwili ofiarowania oddajmy Panu Jezusowi całe nasze życie, wszystkie poczynania, troski i radości; niech On złoży te dary nasze przed Tronem Bożym w niebie.",
   "latin" : "",
   "polish" : ""
+}, {
+  "title" : "Ofiarowanie Chleba",
+  "level" : 2,
+  "rubrics" : "Kapłan odkrywa kielich, ministrant dzwoni. Następnie wznosząc patenę kapłan ofiarowuje chleb.",
+  "latin" : "Suscipe, sancte Pater, omnipotens aeterne Deus, hanc immaculatam hostiam, quam ego indignus famulus tuus offero tibi Deo meo, vivo et vero, pro innumerabilibus peccatis et offensionibus et negligentiis meis, et pro omnibus circumstantibus, sed et pro omnibus fidelibus Christianis vivis atque defunctis: ut mihi, et illis proficiat ad salutem in vitam aeternam. Amen.",
+  "polish" : "Przyjmij, Ojcze święty, wszechmocny, wiekuisty Boże, tę hostię niepokalaną, którą ja niegodny sługa Twój, ofiarowuje Tobie, Bogu mojemu żywemu i prawdziwemu, za niezliczone grzechy, zniewagi i niedbalstwa moje, za wszystkich tu obecnych, a także za wszystkich wiernych Chrześcijan, żywych i umarłych, aby mnie i im posłużyła do zbawienia w życiu wiekuistym. Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Czyniąc pateną znak krzyża,kapłan  składa chleb na ołtarzu.",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Przygotowanie wina i wody",
+  "level" : 2,
+  "rubrics" : "Ministranci przynoszą ampułki z winem i wodą. Kapłan przeszedłszy na stronę Lekcji wlewa do kielicha wino i kilka kropel wody, którą błogosławi (za wyjątkiem Mszy żałobnych). To połączenie wina i wody czyni na pamiątkę krwi i wody, którą spłynęła z boku Chrystusa. Woda jest też symbolem wiernych, którzy wraz z Chrystusem, głową Kościoła, są złączeni jak woda z winem i z Nim ofiarowują się Bogu Ojcu.",
+  "latin" : "Deus, qui humanae substantiae dignitatem mirabiliter condidisti, et mirabilius reformasti: da nobis per huius aquae et vini mysterium, eius divinitatis esse consortes, qui humanitatis nostrae fieri dignatus est particeps, Jesus Christus, Filius tuus, Dominus noster: Qui tecum vivit et regnat in unitate Spiritus Sancti Deus; per omnia saecula saeculorum. Amen.",
+  "polish" : "Boże, któryś godność natury ludzkiej, przedziwnie stworzył i jeszcze przedziwnej naprawił, spraw przez tę tajemnicę wody i wina, abyśmy mieli uczestnictwo w Bóstwie Tego, który raczył stać się uczestnikiem człowieczeństwa naszego, Iezus Chrystus, Syn Twój, Pan nasz, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg: przez wszystkie wieki wieków. Amen."
+}, {
+  "title" : "Ofiarowanie wina",
+  "level" : 2,
+  "rubrics" : "Na środku ołtarza, kapłan podnosi kielich, a następnie czyni nim znak krzyża nad ołtarzem.",
+  "latin" : "Offerimus tibi, Domine, calicem salutaris, tuam deprecantes clementiam: ut in conspectu divinae majestatis tuae, pro nostra et totius mundi salute, cum odore suavitatis ascendat. Amen.",
+  "polish" : "Ofiarujemy Ci, Panie, kielich zbawienia, Twojej żebrząc łaskawości, aby jako wonność wdzięczną wzniósł się przed oblicze Twego Boskiego Majestatu za nasze i całego świata zbawienie. Amen."
+}, {
+  "title" : "Polecenie ofiar",
+  "level" : 2,
+  "rubrics" : "Kapłan pochylony odmawia modlitwę Azariasza w piecu gorejącym (Dn 3, 39-40)",
+  "latin" : "In spiritu humilitatis, et in animo contrito suscipiamur a te, Domine: et sic fiat sacrificium nostrum in conspectu tuo hodie, ut placeat tibi, Domine Deus.",
+  "polish" : "W duchu pokornych i w sercu skruszonych, przyjm nas, o Panie, i niech ofiara nasza tak się dziś przed obliczem Twoim dokona, aby się podobała Tobie, Panie Boże."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Czyniąc znak krzyża kapłan prosi, aby Duch Święty ofiarę pobłogosławił.",
+  "latin" : "Veni, sanctificator omnipotens aeterne Deus, et (+) benedic hoc sacrificium, tuo sancto nomini praeparatum.",
+  "polish" : "Przyjdź, Dawco świętości, wszechmogący wiekuisty Boże, i pobłogosław (+) tę ofiarę przygotowaną dla chwały świętego Imienia Twojego."
+}, {
+  "title" : "Okadzenie (tylko w Mszach uroczystych)",
+  "level" : 3,
+  "rubrics" : "We Mszach uroczystych kapłan okadza dary ofiarne i ołtarz. Błogosławiąc kadzidło kapłan mówi:",
+  "latin" : "Per intercessionem beati Michaelis Archangeli, stantis a dextris altaris incensi, et omnium electorum suorum, incensum istud dignetur Dominus bene + dicere, et in odorem suavitatis accipere. Per Christum, Dominum nostrum. Amen.",
+  "polish" : "Za przyczyną świętego Michała Archanioła, stojącego po prawej stronie ołtarza kadzenia, i wszystkich wybranych swoich, niech to kadzidło raczy Pan pobłogo+sławić i jako miłą woń przyjąć. Przez Chrystusa Pana naszego. Amen. "
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Okadzając dary ofiarne, mówi:",
+  "latin" : "Incensum istud a te benedictum ascendat ad te, Domine: et descendat super nos misericordia tua.",
+  "polish" : "To kadzidło, któreś pobłogosławił, niech się wzniesie ku Tobie, Panie, a na nas niech zstąpi miłosierdzie Twoje."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Okadzając Krucyfiks ołtarza oraz ołtarz kapłan odmawia część psalmu 140:",
+  "latin" : "Dirigatur, Domine, oratio mea, sicut incensum, in conspectu tuo elevatio manuum mearum sacrificium vespertinum. Pone, Domine, custodiam ori meo, et ostium circimstantiae labiis meis: ut non declinet cor meum in verba malitiae, ad excusandas excusationes in paccatis.",
+  "polish" : "Niech się wzbija ku Tobie modlitwa ma, Panie, niby kadzidło, a wznoszenie rąk moich jak ofiara wieczorna. Postaw straż, Panie, przy ustach moich, i stałą wartę przy bramie mych warg. Nie skłaniaj serca mego ku złej sprawie, ku bezbożnemu popełnianiu przestępstw."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Oddając kadzielnicę diakonowi, który okadzi celebransa, duchowieństwo i wiernych, kapłan mówi:",
+  "latin" : "Accendat in nobis Dominus ignem sui amoris, flammam aeternae caritatis. Amen.",
+  "polish" : "Niech Pan zapali w nas ogień swej miłości i płomień wiecznego ukochania. Amen."
+}, {
+  "title" : "Lavabo – Umycie rąk",
+  "level" : 2,
+  "rubrics" : "Ministranci przynoszą utensylia do Lavabo. Kapłan po okadzeniu lub zaraz po poleceniu ofiar przechodzi na stronę Lekcji i umywa palce rąk. Jest to przypomnienie, że należy obudzić skruchę, aby móc przystąpić do ofiary z duszą czystą.",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Psalm 25",
+  "level" : 3,
+  "rubrics" : "",
+  "latin" : "Lavabo inter innocentes manus meas: et circumdabo altare tuum, Domine:\nUt audiam vocem laudis, et enarrem universa mirabilia tua.\nDomine dilexi decorem domus tuae, et locum habitationis gloriae tuae.\nNe perdas cum impiis, Deus, animam meam, et cum viris sanguinum vitam meam:\nIn quorum manibus iniquitates sunt: dextera eorum repleta est muneribus.\nEgo autem in innocentia mea ingressus sum: redime me, et miserere mei.\nPes meus stetit in directo: in ecclesiis benedicam te, Domine. Gloria Patri...",
+  "polish" : "Umywam ręce na znak niewinności: I obchodzę ołtarz Twój Panie. Ażeby śpiewać głośno chwałę Twoją, Aby wysławiać wszystkie cuda Twoje. Umiłowałem, Panie, piękność domu Twego, Stałe mieszkanie Twego Majestatu. Nie trąc mnie, Boże, razem z grzesznikami, Ni życia mego z mężami krwawymi. Ich ręce bowiem splamione zbrodniami, Prawica pełna zapłaty przekupstwa. Ja zaś swe życie wiodę w uczciwości, Ratuj mnie przeto, bądź mi litościwy. Nogi moje stoją na gruncie bezpiecznym: Pragnę Cię chwalić w gronie sług Twoich, Panie. Chwała Ojcu."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "\"Gloria Patri\" opuszcza się w okresie Męki Pańskiej i w Mszach żałobnych.",
+  "latin" : "",
+  "polish" : ""
+}, {
+  "title" : "Polecenie ofiar Trójcy Świętej",
+  "level" : 2,
+  "rubrics" : "Kapłan pochylony na środku ołtarza, mówi:",
+  "latin" : "S. Suscipe sancta Trinitas hanc oblationem, quam tibi offerimus ob memoriam passionis, resurrectionis et ascensionis Iesu Christi, Domini nostri: et in honorem beatae Mariae semper virginis, et beati Ioannis Baptistae, et sanctorum Apostolorum Petri et Pauli, et istorum, et omnium Sanctorum: ut illis proficiat ad honorem, nobis autem ad salutem: et illi pro nobis intercedere dignentur in coelis, quorum memoriam agimus in terris. Per eumdem Christum, Dominum nostrum. Amen.",
+  "polish" : "K. Przyjmij, Trójco Święta, tę ofiarę, którą Ci składamy na pamiątkę Męki, Zmartwychwstania i Wniebowstąpienia Jezusa Chrystusa, Pana naszego, oraz na cześć Najświętszej Maryi Zawsze Dziewicy, świętego Jana Chrzciciela, świętych Apostołów Piotra i Pawła, a także tych (których szczątki są w ołtarzu) i wszystkich świętych: niech posłuży im ku chwale, nam zaś pomoże do zbawienia; niechaj ci, których ze czcią wspominamy na ziemi, raczą orędować za nami w niebie: przez tegoż Chrystusa, Pana Naszego. Amen."
+}, {
+  "title" : "Wezwanie do modlitwy i Sekreta",
+  "level" : 2,
+  "rubrics" : "Kapłan całuje ołtarz i zwraca się do wiernych prosząc o szczególne skupienie i zjednoczenie w modlitwie.",
+  "latin" : "S. Orate, fratres: ut meum ac vestrum sacrificium acceptabile fiat apud Deum Patrem omnipotentem.",
+  "polish" : "K. Módlcie się, bracia, aby moją i waszą ofiarę przyjął Bóg Ojciec wszechmogący."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Odpowiadamy głośno z ministrantem:",
+  "latin" : "M. Suscipiat Dominus sacrificium de manibus tuis ad laudem et gloriam nominis sui, ad utilitatem quoque nostram, totiusque Ecclesiae suae sanctae.",
+  "polish" : "W. Niech przyjmie Pan ofiarę z rąk twoich na cześć i chwałę Imienia swego, oraz na pożytek nasz i całego świętego Kościoła swego."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Kapłan odpowiada po cichu:",
+  "latin" : "S. Amen.",
+  "polish" : "K. Amen."
+}, {
+  "title" : "",
+  "level" : 2,
+  "rubrics" : "Po czym, z rękami nad ofiarą, odmawia modlitwę (lub modlitwy) przypadającą na dany dzień, w której poleca ofiary Bogu. Jest ona zwana sekretą prawdopodobnie dlatego, że była odmawiana po cichu. Po ostatniej z nich kapłan mówi głośno:",
+  "latin" : "S. Per omnia saecula saeculorum.",
+  "polish" : "K. Przez wszystkie wieki wieków."
 }, {
   "title" : "",
   "level" : 2,
   "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
+  "latin" : "S. Amen.",
+  "polish" : "K. Amen."
 }, {
-  "title" : "",
-  "level" : 2,
+  "title" : "Część druga",
+  "level" : 1,
   "rubrics" : "",
   "latin" : "",
   "polish" : ""
 }, {
-  "title" : "",
+  "title" : "Prefacja czyli Przedśpiew",
   "level" : 2,
-  "rubrics" : "",
+  "rubrics" : "Kapłan, dokonując ofiary mocą Chrystusową, zanosi do Boga modlitwę uwielbienia i dziękczynienia. Dlatego nazywamy ją eucharystyczną (eucharystein - dzięki czynić). Dwa razy jednak tę modlitwę przerywa, aby odmówic modlitwę wstawienniczą.",
   "latin" : "",
   "polish" : ""
 }, {
-  "title" : "",
-  "level" : 2,
+  "title" : "Dialog przed Prefacją",
+  "level" : 3,
   "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
-}, {
-  "title" : "",
-  "level" : 2,
-  "rubrics" : "",
-  "latin" : "",
-  "polish" : ""
+  "latin" : "S. Dominus vobiscum.",
+  "polish" : "K. Pan z wami."
 }, {
   "title" : "",
   "level" : 2,
