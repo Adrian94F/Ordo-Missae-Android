@@ -3,7 +3,7 @@ Android app with Roman Missal
 
 ![logo](app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
-[Last release](https://github.com/Adrian94F/Ordo-Missae-Android/releases/latest)
+[Latest release](https://github.com/Adrian94F/Ordo-Missae-Android/releases/latest)
 
 ## Done
 - Latin and Polish version side by side
