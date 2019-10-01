@@ -1,19 +1,12 @@
 package com.frydm_n.ordomissae;
 
 import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.core.view.GravityCompat;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.ViewGroup.LayoutParams;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -23,12 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.DialogFragment;
 
-import android.view.View;
-import android.widget.ImageButton;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.PopupWindow;
-import android.widget.RelativeLayout;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -37,14 +25,12 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Map;
-import java.util.Set;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    ArrayList<TextRow> dataModels;
+    ArrayList<TextRow> textRowsList;
+    static JSONArray rows;
     ListView listView;
     TextRowAdapter adapter;
 
@@ -72,11 +58,11 @@ public class MainActivity extends AppCompatActivity
     private void loadData() {
         listView = (ListView)findViewById(R.id.contentList);
         listView.setDivider(null);
-        dataModels = new ArrayList<>();
+        textRowsList = new ArrayList<>();
 
         String dataString = getAssetJsonData(getApplicationContext());
         try {
-            JSONArray rows = new JSONArray(dataString);
+            rows = new JSONArray(dataString);
             for (int i = 0; i < rows.length(); i++) {
                 JSONObject insideObject = rows.getJSONObject(i);
                 String title = insideObject.getString("title");
@@ -84,15 +70,15 @@ public class MainActivity extends AppCompatActivity
                 String rubrics = insideObject.getString("rubrics");
                 String latin = insideObject.getString("latin");
                 String polish = insideObject.getString("polish");
-                dataModels.add(new TextRow(title, titleLevel, rubrics, latin, polish));
+                textRowsList.add(new TextRow(title, titleLevel, rubrics, latin, polish));
             }
 
         } catch (JSONException e) {
             e.printStackTrace();
-            dataModels.add(new TextRow("Nie udało się odczytać danych"));
+            textRowsList.add(new TextRow("Nie udało się odczytać danych"));
         }
 
-        adapter = new TextRowAdapter(dataModels, getApplicationContext());
+        adapter = new TextRowAdapter(textRowsList, getApplicationContext());
         listView.setAdapter(adapter);
     }
 

@@ -8,6 +8,10 @@ import android.widget.ArrayAdapter;
 
 import androidx.fragment.app.DialogFragment;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class TocFragment extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -18,26 +22,25 @@ public class TocFragment extends DialogFragment {
         builderSingle.setIcon(R.drawable.ic_jerusalem_cross);
         builderSingle.setTitle(getResources().getString(R.string.menu_toc));
 
+        JSONArray rows = MainActivity.rows;
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.select_dialog_item);
-        // TODO: load from JSON
-        arrayAdapter.add("Coś 1");
-        arrayAdapter.add("Coś innego 1");
-        arrayAdapter.add("Coś tam 1");
-        arrayAdapter.add("Coś 2");
-        arrayAdapter.add("Coś innego 2");
-        arrayAdapter.add("Coś tam 2");
-        arrayAdapter.add("Coś 3");
-        arrayAdapter.add("Coś innego 3");
-        arrayAdapter.add("Coś tam 3");
-        arrayAdapter.add("Coś 4");
-        arrayAdapter.add("Coś innego 4");
-        arrayAdapter.add("Coś tam 4");
-        arrayAdapter.add("Coś 5");
-        arrayAdapter.add("Coś innego 5");
-        arrayAdapter.add("Coś tam 5");
-        arrayAdapter.add("Coś 6");
-        arrayAdapter.add("Coś innego 6");
-        arrayAdapter.add("Coś tam 6");
+
+        for (int i = 0; i < rows.length(); i++) {
+            String title = "...error...";
+            int level = 0;
+            try {
+                JSONObject insideObject = rows.getJSONObject(i);
+                title = insideObject.getString("title");
+                level = insideObject.getInt("level");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            if (title.length() > 0) {
+                String spaces = new String(new char[2* level]).replace('\0', ' ');
+                title = spaces + title;
+                arrayAdapter.add(title);
+            }
+        }
 
         builderSingle.setNegativeButton(getResources().getString(R.string.cancel), new DialogInterface.OnClickListener() {
             @Override

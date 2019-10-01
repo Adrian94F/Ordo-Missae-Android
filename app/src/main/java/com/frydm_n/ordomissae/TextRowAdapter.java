@@ -82,37 +82,32 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
         String title = textRow.getTitle();
         viewHolder.txtTitle.setText(title);
         if (title.length() > 0) {
-            viewHolder.txtTitle.setTextSize(22 - 2 * textRow.getTitleLevel());
+            viewHolder.txtTitle.setTextSize(22 - 2 * textRow.getLevel());
         }
         else {
             viewHolder.txtTitle.setTextSize(0);
-            //viewHolder.txtTitle.setHeight(0);
-            //viewHolder.txtTitle.setPadding(0, 0, 0, 0);
-            //viewHolder.txtTitle.setVisibility(View.GONE);
         }
 
         String rubrics = textRow.getRubrics();
         viewHolder.txtRubrics.setText(rubrics);
-        if (rubrics.length() == 0) {
-            //viewHolder.txtRubrics.setTextSize(0);
-            //viewHolder.txtRubrics.setHeight(0);
-            //viewHolder.txtRubrics.setPadding(0, 0, 0, 0);
-            //viewHolder.txtRubrics.setVisibility(View.GONE);
+        if (rubrics.length() > 0) {
+            viewHolder.txtRubrics.setTextSize(14);
+            viewHolder.txtRubrics.setPadding(0, 5, 0, 0);
+        } else {
+            viewHolder.txtRubrics.setTextSize(0);
+            viewHolder.txtRubrics.setPadding(0, 0, 0, 0);
         }
 
         String latin = textRow.getLatin();
         String polish = textRow.getPolish();
         viewHolder.txtLatin.setText(latin);
         viewHolder.txtPolish.setText(polish);
-        if (latin.length() == 0 || polish.length() == 0) {
-            //viewHolder.txtLatin.setTextSize(0);
-            //viewHolder.txtPolish.setTextSize(0);
-            //viewHolder.txtLatin.setHeight(0);
-            //viewHolder.txtLatin.setPadding(0, 0, 0, 0);
-            //viewHolder.txtLatin.setVisibility(View.GONE);
-            //viewHolder.txtPolish.setHeight(0);
-            //viewHolder.txtPolish.setPadding(0, 0, 0, 0);
-            //viewHolder.txtPolish.setVisibility(View.GONE);
+        if (latin.length() > 0 || polish.length() > 0) {
+            viewHolder.txtLatin.setTextSize(14);
+            viewHolder.txtPolish.setTextSize(14);
+        } else {
+            viewHolder.txtLatin.setTextSize(0);
+            viewHolder.txtPolish.setTextSize(0);
         }
 
         viewHolder.txtPolish.setTag(position);

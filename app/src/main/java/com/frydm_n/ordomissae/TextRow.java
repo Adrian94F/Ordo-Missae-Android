@@ -2,7 +2,7 @@ package com.frydm_n.ordomissae;
 
 public class TextRow {
     private String title = "";
-    private int titleLevel = 0;
+    private int level = 0;
     private String rubrics = "";
     private String latin = "";
     private String polish = "";
@@ -31,7 +31,7 @@ public class TextRow {
 
     TextRow(String t, int lvl, String r, String l, String p) {
         title = t;
-        titleLevel = lvl;
+        level = lvl;
         rubrics = r;
         latin = l;
         polish = p;
@@ -39,7 +39,7 @@ public class TextRow {
 
     String getTitle() {
         if (title.length() > 0) {
-            String spaces = new String(new char[2*titleLevel]).replace('\0', ' ');
+            String spaces = new String(new char[2* level]).replace('\0', ' ');
             return spaces + title;
         }
         return "";
@@ -58,7 +58,7 @@ public class TextRow {
         return polish;
     }
 
-    int getTitleLevel() {
-        return titleLevel;
+    int getLevel() {
+        return level;
     }
 }
