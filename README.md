@@ -6,14 +6,22 @@ Android app with Roman Missal
 ## Done
 - Latin and Polish version side by side
 - simple "About" window
+- table of contents window
+
+## Preview
+
+<img src="https://i.imgur.com/cZZWFkwl.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/>
+
+<img src="https://i.imgur.com/lBZ4L0Il.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/>
+
+<img src="https://i.imgur.com/U9clIERl.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/>
 
 ## TODO
 - fill JSON with the rest of text
-- find out why rows' content disappears after scrolling down and up
 - settings window
   - dark/paper theme
   - turn on/off translation
-- table of contents window
+- working table of contents window
 - consistent "About app" window
 
 ## About
