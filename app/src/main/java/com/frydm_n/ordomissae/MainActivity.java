@@ -133,12 +133,13 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void onSettingsButton() {
-        // TODO
+        DialogFragment dialog = new SettingsFragment();
+        dialog.show(getSupportFragmentManager(), "SettingsFragment");
     }
 
     public void onTocButton() {
 
-        DialogFragment dialog = new TocFragment();
+        DialogFragment dialog = new TocFragment(listView);
         dialog.show(getSupportFragmentManager(), "TocFragmentTag");
     }
 }

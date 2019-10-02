@@ -1,10 +1,13 @@
 package com.frydm_n.ordomissae;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import androidx.fragment.app.DialogFragment;
 
@@ -15,6 +18,13 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class TocFragment extends DialogFragment {
+
+    TocFragment(ListView listView_) {
+        listView = listView_;
+    }
+
+    private ListView listView;
+
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
 
@@ -60,36 +70,13 @@ public class TocFragment extends DialogFragment {
                 int index = 0;
                 for (; index < textRows.size(); index++) {
                     if (textRows.get(index).getTitle().equals(strName)) {
-                        //MainActivity.scrollTo(index);
+                        // TODO: something's wrong here
+                        listView.smoothScrollToPosition(index);
                         break;
                     }
                 }
-                AlertDialog.Builder builderInner = new AlertDialog.Builder(getActivity());
-                builderInner.setMessage(strName);
-                builderInner.setTitle("Wybrałeś");
-                builderInner.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog,int which) {
-                        dialog.dismiss();
-                    }
-                });
-                builderInner.show();
             }
         });
         return builderSingle.create();
-
-
-
-        /*builder.setTitle(getResources().getString(R.string.menu_about));
-        builder.setMessage(getResources().getString(R.string.about_application));
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-                // You don't have to do anything here if you just
-                // want it dismissed when clicked
-            }
-        });
-
-        // Create the AlertDialog object and return it
-        return builder.create();*/
     }
 }

@@ -8,4 +8,6 @@
     <color name="colorRubrics">#AF0000</color>
     <color name="colorNigrics">#282828</color>
     <color name="colorText">#202020</color>
+
+    <color name="colorDrawerBackground">#FFFFFFFF</color>
 </resources>
