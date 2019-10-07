@@ -10,4 +10,15 @@
     <color name="colorText">#202020</color>
 
     <color name="colorDrawerBackground">#FFFFFFFF</color>
+
+    <color name="colorDarkPrimary">#202020</color>
+    <color name="colorDarkPrimaryDark">#202020</color>
+    <color name="colorDarkAccent">#C80000</color>
+
+    <color name="colorDarkTitle">#C8C8C8</color>
+    <color name="colorDarkRubrics">#AF0000</color>
+    <color name="colorDarkNigrics">#DCDCDC</color>
+    <color name="colorDarkText">#D2D2D2</color>
+
+    <color name="colorDarkDrawerBackground">#FFFFFFFF</color>
 </resources>

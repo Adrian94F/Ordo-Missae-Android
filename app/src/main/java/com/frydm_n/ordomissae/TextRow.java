@@ -38,12 +38,7 @@ public class TextRow {
     }
 
     String getTitle() {
-        if (title.length() > 0) {
-            String spaces = new String(new char[2* level]).replace('\0', ' ');
-            return spaces + title;
-        }
-        return "";
-
+        return title;
     }
 
     String getRubrics() {

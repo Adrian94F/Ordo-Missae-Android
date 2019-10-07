@@ -13,4 +13,8 @@
     <string name="about_application">Aplikację stworzono na podstawie fragmentów Mszału Rzymskiego z dodaniem Nabożeństw Nieszpornych umieszczonych na stronie sanctus.pl.</string>
     <string name="cancel">Anuluj</string>
     <string name="ok">OK</string>
+
+    <string name="light">Jasny motyw</string>
+    <string name="dark">Ciemny motyw</string>
+    <string name="translation">Tłumaczenie</string>
 </resources>

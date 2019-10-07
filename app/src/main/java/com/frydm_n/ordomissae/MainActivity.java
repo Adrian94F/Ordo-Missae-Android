@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity
     ListView listView;
     TextRowAdapter adapter;
 
+    SettingsFragment.Theme theme = SettingsFragment.Theme.LIGHT;
+    boolean translation = true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -133,7 +136,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void onSettingsButton() {
-        DialogFragment dialog = new SettingsFragment();
+        DialogFragment dialog = new SettingsFragment(SettingsFragment.Theme.LIGHT);
         dialog.show(getSupportFragmentManager(), "SettingsFragment");
     }
 
@@ -141,5 +144,13 @@ public class MainActivity extends AppCompatActivity
 
         DialogFragment dialog = new TocFragment(listView);
         dialog.show(getSupportFragmentManager(), "TocFragmentTag");
+    }
+
+    public void turnOnTranslation() {
+        translation = true;
+    }
+
+    public void turnOffTranslation() {
+        translation = false;
     }
 }

@@ -83,9 +83,11 @@ public class TextRowAdapter extends ArrayAdapter<TextRow> /*implements View.OnCl
         viewHolder.txtTitle.setText(title);
         if (title.length() > 0) {
             viewHolder.txtTitle.setTextSize(22 - 2 * textRow.getLevel());
+            viewHolder.txtTitle.setPadding(0, 15, 0, 0);
         }
         else {
             viewHolder.txtTitle.setTextSize(0);
+            viewHolder.txtTitle.setPadding(0, 0, 0, 0);
         }
 
         String rubrics = textRow.getRubrics();
