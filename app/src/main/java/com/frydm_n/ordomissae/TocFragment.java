@@ -7,7 +7,10 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.ScrollView;
+import android.widget.TextView;
 
 import androidx.fragment.app.DialogFragment;
 
@@ -15,15 +18,16 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class TocFragment extends DialogFragment {
 
-    TocFragment(ListView listView_) {
-        listView = listView_;
+    TocFragment(ScrollView scrollView) {
+        scrollView_ = scrollView;
     }
 
-    private ListView listView;
+    private ScrollView scrollView_;
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -35,11 +39,12 @@ public class TocFragment extends DialogFragment {
         builderSingle.setTitle(getResources().getString(R.string.menu_toc));
 
         JSONArray rows = MainActivity.rows;
+        final ArrayList<String> titles = new ArrayList<>();
 
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.select_dialog_item);
 
         for (int i = 0; i < rows.length(); i++) {
-            String title = "...error...";
+            String title = "";
             int level = 0;
             try {
                 JSONObject insideObject = rows.getJSONObject(i);
@@ -49,9 +54,12 @@ public class TocFragment extends DialogFragment {
                 e.printStackTrace();
             }
             if (title.length() > 0) {
-                String spaces = new String(new char[2* level]).replace('\0', ' ');
-                title = spaces + title;
-                arrayAdapter.add(title);
+                if (level < 3) {
+                    String spaces = new String(new char[2 * level]).replace('\0', ' ');
+                    title = spaces + title;
+                    arrayAdapter.add(title);
+                    titles.add(title);
+                }
             }
         }
 
@@ -65,16 +73,24 @@ public class TocFragment extends DialogFragment {
         builderSingle.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                String strName = arrayAdapter.getItem(which);
-                ArrayList<TextRow> textRows = MainActivity.textRowsList;
-                int index = 0;
-                for (; index < textRows.size(); index++) {
-                    if (textRows.get(index).getTitle().equals(strName)) {
-                        // TODO: something's wrong here
-                        listView.smoothScrollToPosition(index);
-                        break;
+                final String strName = arrayAdapter.getItem(which);
+                scrollView_.post(new Runnable() {
+                    public void run() {
+                        final int index = titles.indexOf(strName);
+                        LinearLayout layout = (LinearLayout)scrollView_.getChildAt(0);
+                        TextView firstTextView = layout.findViewById(0);
+                        TextView textView = layout.findViewById(index);
+                        //TextView firstTextView = (TextView)layout.getChildAt(0);
+                        //TextView textView = (TextView)layout.getChildAt(index);
+                        final int[] startLocation = {0,0};
+                        firstTextView.getLocationInWindow(startLocation);
+                        final int[] textLocation = {0,0};
+                        textView.getLocationInWindow(textLocation);
+                        final int scrollY = textLocation[1] - startLocation[1];
+                        scrollView_.smoothScrollTo(0, scrollY);
+
                     }
-                }
+                });
             }
         });
         return builderSingle.create();

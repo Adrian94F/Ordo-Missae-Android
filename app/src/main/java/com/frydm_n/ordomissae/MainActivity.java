@@ -1,6 +1,8 @@
 package com.frydm_n.ordomissae;
 
 import android.content.Context;
+import android.content.res.Resources;
+import android.graphics.Typeface;
 import android.os.Bundle;
 
 import androidx.core.view.GravityCompat;
@@ -16,7 +18,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.DialogFragment;
 
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,13 +35,8 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    static ArrayList<TextRow> textRowsList;
     static JSONArray rows;
-    ListView listView;
-    TextRowAdapter adapter;
-
-    SettingsFragment.Theme theme = SettingsFragment.Theme.LIGHT;
-    boolean translation = true;
+    LinearLayout contentLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +45,95 @@ public class MainActivity extends AppCompatActivity
 
         setToolbar();
         loadData();
+    }
+
+    private void loadData() {
+        contentLayout = findViewById(R.id.content_layout);
+
+        String dataString = getAssetJsonData(getApplicationContext());
+        JSONObject insideObject;
+
+        try {
+            rows = new JSONArray(dataString);
+        } catch (JSONException e) {
+            e.printStackTrace();
+            return;
+        }
+
+        int titleCounter = 0;
+
+        for (int i = 0; i < rows.length(); i++) {
+            String title = "";
+            int titleLevel = 0;
+            String rubrics = "";
+            String latin = "";
+            String polish = "";
+
+            try {
+                insideObject = rows.getJSONObject(i);
+            } catch (JSONException e) {
+                e.printStackTrace();
+                return;
+            }
+            try {
+                title = insideObject.getString("title");
+                titleLevel = insideObject.getInt("level");
+            } catch (JSONException e) {
+                e.printStackTrace();
+                try {
+                    rubrics = insideObject.getString("rubrics");
+                } catch (JSONException ee) {
+                    ee.printStackTrace();
+                    try {
+                        latin = insideObject.getString("latin");
+                        polish = insideObject.getString("polish");
+                    } catch (JSONException eee) {
+                        eee.printStackTrace();
+                    }
+                }
+
+            }
+
+            if (title.length() > 0) {
+                TextView textView = new TextView(contentLayout.getContext());
+                textView.setText(title);
+                textView.setTextSize(22 - 2 * titleLevel);
+                textView.setTypeface(textView.getTypeface(), Typeface.BOLD);
+                textView.setTextColor(getResources().getColor(R.color.colorTitle, getTheme()));
+                textView.setPadding(0,20,0,10);
+                if (titleLevel < 3) {
+                    textView.setId(titleCounter++);
+                }
+                contentLayout.addView(textView);
+            } else if (rubrics.length() > 0) {
+                TextView textView = new TextView(contentLayout.getContext());
+                textView.setText(rubrics);
+                textView.setTypeface(textView.getTypeface(), Typeface.ITALIC);
+                textView.setTextColor(getResources().getColor(R.color.colorRubrics, getTheme()));
+                textView.setPadding(0,5,0,5);
+                contentLayout.addView(textView);
+            } else if (latin.length() > 0 || polish.length() > 0) {
+                LinearLayout linearLayout = new LinearLayout(contentLayout.getContext());
+                TextView latinTextView = new TextView(linearLayout.getContext());
+                TextView polishTextView = new TextView(linearLayout.getContext());
+                latinTextView.setText(latin);
+                polishTextView.setText(polish);
+                latinTextView.setTextColor(getResources().getColor(R.color.colorText, getTheme()));
+                polishTextView.setTextColor(getResources().getColor(R.color.colorText, getTheme()));
+                latinTextView.setPadding(0,5,10, 0);
+                polishTextView.setPadding(10,5,0, 0);
+                LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                        LinearLayout.LayoutParams.MATCH_PARENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT);
+                params.weight = 0.5f;
+                latinTextView.setLayoutParams(params);
+                polishTextView.setLayoutParams(params);
+                linearLayout.addView(latinTextView);
+                linearLayout.addView(polishTextView);
+                contentLayout.addView(linearLayout);
+            }
+
+        }
     }
 
     private void setToolbar() {
@@ -58,7 +148,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
 
-    private void loadData() {
+    /*private void loadData() {
         listView = (ListView)findViewById(R.id.contentList);
         listView.setDivider(null);
         textRowsList = new ArrayList<>();
@@ -83,7 +173,7 @@ public class MainActivity extends AppCompatActivity
 
         adapter = new TextRowAdapter(textRowsList, getApplicationContext());
         listView.setAdapter(adapter);
-    }
+    }*/
 
     private static String getAssetJsonData(Context context) {
         String json = null;
@@ -141,16 +231,16 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void onTocButton() {
-
-        DialogFragment dialog = new TocFragment(listView);
+        ScrollView sv = findViewById(R.id.scroll_view);
+        DialogFragment dialog = new TocFragment(sv);
         dialog.show(getSupportFragmentManager(), "TocFragmentTag");
     }
 
-    public void turnOnTranslation() {
+    /*public void turnOnTranslation() {
         translation = true;
     }
 
     public void turnOffTranslation() {
         translation = false;
-    }
+    }*/
 }

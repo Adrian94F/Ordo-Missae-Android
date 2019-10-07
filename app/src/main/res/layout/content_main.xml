@@ -9,22 +9,40 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context="com.journaldev.customlistview.MainActivity"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:showIn="@layout/activity_main">
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context="com.journaldev.customlistview.MainActivity"-->
+<!--        app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+<!--        tools:showIn="@layout/activity_main">-->
 
-        <ListView
-            android:id="@+id/contentList"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:requiresFadingEdge="vertical"
-            android:fadingEdgeLength="48dp"
-            android:listSelector="@android:color/transparent"
-            android:cacheColorHint="@android:color/transparent" />
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
-    </RelativeLayout>
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10sp" >
+
+            <LinearLayout
+                android:id="@+id/content_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        </ScrollView >
+
+<!--        <ListView-->
+<!--            android:id="@+id/contentList"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:requiresFadingEdge="vertical"-->
+<!--            android:fadingEdgeLength="48dp"-->
+<!--            android:listSelector="@android:color/transparent"-->
+<!--            android:cacheColorHint="@android:color/transparent" />-->
+
+<!--    </RelativeLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
