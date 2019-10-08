@@ -10,7 +10,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,10 +17,10 @@ import java.util.List;
 public class TocAdapter extends ArrayAdapter<String> {
 
     private Context mContext;
-    private List<String> titlesList = new ArrayList<>();
-    private List<Integer> levelsList = new ArrayList<>();
+    private List<String> titlesList;
+    private List<Integer> levelsList;
 
-    public TocAdapter(@NonNull Context context, ArrayList<String> list, ArrayList<Integer> levels) {
+    TocAdapter(@NonNull Context context, ArrayList<String> list, ArrayList<Integer> levels) {
         super(context, 0 , list);
         mContext = context;
         titlesList = list;

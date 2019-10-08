@@ -4,8 +4,6 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.RadioButton;
 
 import androidx.fragment.app.DialogFragment;
 
@@ -46,30 +44,6 @@ public class SettingsFragment extends DialogFragment {
             }
         });
 
-        /*getView().findViewById(R.id.radio_light).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-
-        getView().findViewById(R.id.radio_dark).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });*/
-
         return builderSingle.create();
-    }
-
-    private void setTranslation() {
-        //check if translation is turned on or off
-    }
-
-    private void setCurrentTheme() {
-        //check which theme is enabled
-        int id = currentTheme == Theme.LIGHT ? R.id.radio_light : R.id.radio_dark;
-        getView().findViewById(id).setPressed(true);
     }
 }

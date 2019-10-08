@@ -1,7 +1,6 @@
 package com.frydm_n.ordomissae;
 
 import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
 
@@ -19,8 +18,6 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.DialogFragment;
 
 import android.widget.LinearLayout;
-import android.widget.ListView;
-import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
@@ -30,7 +27,6 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -91,7 +87,6 @@ public class MainActivity extends AppCompatActivity
                         eee.printStackTrace();
                     }
                 }
-
             }
 
             if (title.length() > 0) {
@@ -132,7 +127,6 @@ public class MainActivity extends AppCompatActivity
                 linearLayout.addView(polishTextView);
                 contentLayout.addView(linearLayout);
             }
-
         }
     }
 
@@ -147,33 +141,6 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
     }
-
-    /*private void loadData() {
-        listView = (ListView)findViewById(R.id.contentList);
-        listView.setDivider(null);
-        textRowsList = new ArrayList<>();
-
-        String dataString = getAssetJsonData(getApplicationContext());
-        try {
-            rows = new JSONArray(dataString);
-            for (int i = 0; i < rows.length(); i++) {
-                JSONObject insideObject = rows.getJSONObject(i);
-                String title = insideObject.getString("title");
-                int titleLevel = insideObject.getInt("level");
-                String rubrics = insideObject.getString("rubrics");
-                String latin = insideObject.getString("latin");
-                String polish = insideObject.getString("polish");
-                textRowsList.add(new TextRow(title, titleLevel, rubrics, latin, polish));
-            }
-
-        } catch (JSONException e) {
-            e.printStackTrace();
-            textRowsList.add(new TextRow("Nie udało się odczytać danych"));
-        }
-
-        adapter = new TextRowAdapter(textRowsList, getApplicationContext());
-        listView.setAdapter(adapter);
-    }*/
 
     private static String getAssetJsonData(Context context) {
         String json = null;
@@ -235,12 +202,4 @@ public class MainActivity extends AppCompatActivity
         DialogFragment dialog = new TocFragment(sv);
         dialog.show(getSupportFragmentManager(), "TocFragmentTag");
     }
-
-    /*public void turnOnTranslation() {
-        translation = true;
-    }
-
-    public void turnOffTranslation() {
-        translation = false;
-    }*/
 }
