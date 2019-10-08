@@ -8,16 +8,6 @@ import android.os.Bundle;
 import androidx.fragment.app.DialogFragment;
 
 public class SettingsFragment extends DialogFragment {
-    public enum Theme {
-        LIGHT,
-        DARK
-    }
-
-    Theme currentTheme;
-
-    public SettingsFragment(Theme theme) {
-        currentTheme = theme;
-    }
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
