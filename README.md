@@ -5,11 +5,13 @@ Android app with Roman Missal
 
 [Latest release](https://github.com/Adrian94F/Ordo-Missae-Android/releases/latest)
 
-<img src="https://i.imgur.com/LCTOTvLl.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/>
+![Main screen](https://i.imgur.com/2nl9dfsl.png)
 
-<img src="https://i.imgur.com/AnH7cNTl.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/>
+![Menu button](https://i.imgur.com/IQIoqdHl.png)
 
-<img src="https://i.imgur.com/rVun1ofl.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/>
+![Table of contents](https://i.imgur.com/Wr4D8Igl.png)
+
+![About app](https://i.imgur.com/tls83ODl.png)
 
 ## TODO
 - settings window
